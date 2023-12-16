@@ -1,0 +1,13 @@
+h1 {
+    color : rgb(244, 174, 11);
+}
+p {
+   color:deeppink;
+}
+button {
+    color:rgb(255, 4, 4);
+    background-color: white;
+}
+body {
+    background-color: #2596be;
+}
