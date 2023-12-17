@@ -1,0 +1,60 @@
+#portfoliobody{
+    background-color:#f0ebd8ff;
+}
+
+#title{
+
+    color: #1d2d44ff;
+}
+#detail {
+    color:saddlebrown;
+    }
+
+#PD {
+    background-color: #1d2d44ff;
+}
+
+#PD h3 {
+    color: #f0ebd8ff; 
+}
+
+#Education {
+    background-color: #1d2d44ff; 
+}
+
+#Education h3, #Education h4 {
+    color: #f0ebd8ff; 
+}
+
+
+#Experience {
+    background-color: #f78764ff; 
+}
+
+#Experience h3 {
+    color: #1d2d44ff; 
+}
+
+#ACH {
+    background-color: #f0ebd8ff;
+}
+
+#ACH h3 {
+    color: #3c91e6ff;
+}
+
+
+#Bye {
+    background-color: rgb(144, 55, 0);
+}
+
+#Bye h4 {
+    color: blanchedalmond;
+}
+
+
+--tufts-blue: #3c91e6ff;
+--prussian-blue: #1d2d44ff;
+--pacific-cyan: #31afd4ff;
+--coral: ;
+--eggshell: ;
