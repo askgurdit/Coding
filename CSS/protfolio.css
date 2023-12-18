@@ -1,16 +1,18 @@
 #portfoliobody{
     background-color:#f0ebd8ff;
+
 }
 
 #title{
 
     color: #1d2d44ff;
     text-align: center;
+    text-transform: uppercase;
 }
 .detail {
     color:saddlebrown;
     text-align: center;
-    text-transform:uppercase;
+    text-transform:capitalize;
     }
 
 #PD {
@@ -29,6 +31,7 @@
 
 #Education h3, #Education h4 {
     color: #f0ebd8ff; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -39,6 +42,7 @@
 
 #Experience h3 {
     color: #1d2d44ff; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #ACH {
@@ -48,6 +52,7 @@
 #ACH h3 {
     color: #3c91e6ff;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
