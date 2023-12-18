@@ -5,13 +5,17 @@
 #title{
 
     color: #1d2d44ff;
+    text-align: center;
 }
-#detail {
+.detail {
     color:saddlebrown;
+    text-align: center;
+    text-transform:uppercase;
     }
 
 #PD {
     background-color: #1d2d44ff;
+    text-align: center;
 }
 
 #PD h3 {
@@ -20,6 +24,7 @@
 
 #Education {
     background-color: #1d2d44ff; 
+    text-align: center;
 }
 
 #Education h3, #Education h4 {
@@ -29,6 +34,7 @@
 
 #Experience {
     background-color: #f78764ff; 
+    text-align: center;
 }
 
 #Experience h3 {
@@ -41,6 +47,7 @@
 
 #ACH h3 {
     color: #3c91e6ff;
+    text-align: center;
 }
 
 
@@ -50,9 +57,18 @@
 
 #Bye h4 {
     color: blanchedalmond;
+    text-align: center;
 }
 
+#linkexperience{
+    text-decoration: none;
+    text-align: center;
+}
 
+#linkexperience2{
+    text-decoration: none;
+    text-align: center;
+}
 --tufts-blue: #3c91e6ff;
 --prussian-blue: #1d2d44ff;
 --pacific-cyan: #31afd4ff;
