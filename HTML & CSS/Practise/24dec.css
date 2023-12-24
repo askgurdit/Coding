@@ -1,0 +1,17 @@
+#box1 {
+    height:100px;
+   width: 100px; 
+     background-color: green;
+     font-size: 10px;
+}
+#box2{
+    /* height:50px; for % em rem properties */
+   /*  width:30%; //For % relative unit */
+   /*width:2em; /* Here it is 20px */
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em; /* Here it is dependent for it's value on width of box2 */
+    /* width:5em;  Here it is 20px */
+    width:5rem; /* Here it is 80px*/
+    height: 100vh;
+}
