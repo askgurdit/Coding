@@ -11,14 +11,16 @@ body {
     flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  align-items:center;
-  align-content: center;
+  align-items:flex-start;
+  /*align-content: flex-start;*/
 }
 #box1 {
     background-color: aqua;
 }
 #box2 {
+    height:200px;
     background-color: chocolate;
+    align-self:flex-end;
 }
 #box3 {
     background-color: darkorchid;
@@ -30,7 +32,7 @@ body {
     background-color:lightseagreen;
 }
 div {
-    height: 50px;
+    height: 100px;
     width: 150px;
     border:2px solid black;
     display: inline-block;
