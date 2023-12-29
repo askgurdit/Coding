@@ -1,0 +1,18 @@
+.navbar ul {
+    background-color:pink;
+    display:flex;
+    justify-content: space-evenly;
+}
+.navbar a {
+    text-decoration: none;
+    padding:10px;
+    color:red;
+}
+.navbar li {
+    list-style-type: none;
+   display:inline;
+}
+
+
+
+ 
