@@ -10,7 +10,7 @@ body {
     display:flex;
     flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   align-items:flex-start;
   /*align-content: flex-start;*/
 }
@@ -18,22 +18,24 @@ body {
     background-color: aqua;
 }
 #box2 {
-    height:200px;
     background-color: chocolate;
-    align-self:flex-end;
+   /* height:200px;   
+    align-self:flex-end;*/
+    flex-shrink: 10;
 }
 #box3 {
     background-color: darkorchid;
 }
 #box4 {
     background-color:hotpink;
+    flex-grow: 15;
 }
 #box5 {
     background-color:lightseagreen;
 }
 div {
     height: 100px;
-    width: 150px;
+    width: 100px;
     border:2px solid black;
     display: inline-block;
 }
