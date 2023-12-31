@@ -1,0 +1,28 @@
+body {
+    padding:0px;
+    margin:0px;
+    }
+    div {
+        height:200px;
+        width:200px;
+        background-color: darksalmon;
+        border:2px soolid black;
+        /*transition:all;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-delay: 2s;
+        transition: opacity 1s ease-in;*/
+        transition: color 0.5s linear 1s, opacity 1s ease-in-out 1s;
+
+    }
+    div:hover {
+        background-color: crimson;
+        transition-duration: 0.8s; /*for background color*/
+        color:white;
+    }
+    div:active {
+        background-color: deepskyblue;
+        transition-duration: 1s; /*for background color*/
+        color:deeppink;
+        opacity: 0;
+    }
