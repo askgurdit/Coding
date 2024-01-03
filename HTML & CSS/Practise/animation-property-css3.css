@@ -1,0 +1,32 @@
+.body {
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .circle {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: moveAndChangeColor 5s ease-in-out infinite alternate-reverse;
+  }
+  
+  @keyframes moveAndChangeColor {
+    0% {
+      left: 0;
+      background-color: yellow;
+    }
+    100% {
+      left: calc(100% - 150px); /* Adjusted value for the width of the circle */
+      background-color: red;
+    }
+  }
+  
