@@ -32,6 +32,10 @@ a {
 
 #Content {
     height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
