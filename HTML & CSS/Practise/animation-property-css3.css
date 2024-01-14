@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: moveAndChangeColor 5s ease-in-out infinite alternate-reverse;
+    animation: moveAndChangeColor 3s ease-in infinite 0s alternate-reverse;
   }
   
   @keyframes moveAndChangeColor {
