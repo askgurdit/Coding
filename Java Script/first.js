@@ -19,3 +19,37 @@ const profile = {
 console.log (profile);
 console.log (typeof profile);
 console.log (typeof profile["username"]);
+
+//This is a single line comment
+/*This is a code that prints
+hello world on our window*/
+console.log("hello world!");
+/*Arithmeuc operators are of addition, substract, multiplication,
+ divison, modulus % , exponentiation **, increment, decrement*/
+
+ //Arithmetic Operators
+ let a=5;
+ let b=2;
+ //let c=a+b; it can also be a option
+ console.log ("a=",a, "&b=",b);
+ console.log("a+b=",a+b);
+ console.log ("a-b",a-b);
+ console.log ("a*b",a*b);
+ console.log ("a/b",a/b);
+ console.log ("a%b",a%b);
+ console.log ("a**b",a**b);
+ // Increment and Decrement Operator 
+ //a=a+1;
+ a++; //shortcut of increment operator
+ console.log ("a=",a); //6
+ a=a-1; //shortcut of decrement operator
+ console.log ("a=",a); //4
+// Post & pre increment and decrement operator
+console.log("++a=",++a); //pre increment
+console.log ("a++=",a++);
+console.log("a=",a); // 7
+console.log("--a=",--a); //pre decrement 6 
+console.log ("a--=",a--); //6
+console.log("a=",a); //5
+
+
