@@ -52,20 +52,43 @@ console.log("--a=",--a); //pre decrement 6
 console.log ("a--=",a--); //6
 console.log("a=",a); //5
 */
-/* Assignment operators include =,+=, -= , *= , %= , **= */
+/* Assignment operators include =,+=, -= , *= , %= , **= 
 let a=5;
 let b=2;
 a += 4; //a=a+4
 console.log("a=",a); //9
 a -= 4; //a=a-4
-console.log("a=",a); //1
+console.log("a=",a); //1 but 5
 a *= 4; //a=a*4
 console.log("a=",a); //20
 a /= 4; //a=a/4
-console.log("a=",a); //1.25
+console.log("a=",a); //1.25 but 5
 a %= 4; //a=a%4
 console.log("a=",a); //1
 a **= 4; //a=a**4
-console.log("a=",a); //625
+console.log("a=",a); //625 but 1
+*/
+/*Comparison operators include equal to == ,not equal to != , equal to & type === ,
+not equal to & type !== */
+let a=5;
+let b=2;
+console.log ("a==b",a==b);
+console.log ("a!=b",a!=b);
+let c="5";
+console.log ("a==c",a==c); // converts string to number here for comparison
+console.log ("a===c",a===c);
+console.log ("a!==c",a!==c);
+
+//Also > greater than, >= , < ,<=
+let d=3;
+console.log ("a>d",a>d); //true
+console.log ("a<d",a<d); //false
+console.log ("a>=d",a>=d); //true
+console.log ("a<=d",a<=d); //false
+
+
+
+
+
 
 
