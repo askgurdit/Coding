@@ -28,7 +28,7 @@ console.log("hello world!");
  divison, modulus % , exponentiation **, increment, decrement*/
 
  //Arithmetic Operators
- let a=5;
+ /*let a=5;
  let b=2;
  //let c=a+b; it can also be a option
  console.log ("a=",a, "&b=",b);
@@ -51,5 +51,21 @@ console.log("a=",a); // 7
 console.log("--a=",--a); //pre decrement 6 
 console.log ("a--=",a--); //6
 console.log("a=",a); //5
+*/
+/* Assignment operators include =,+=, -= , *= , %= , **= */
+let a=5;
+let b=2;
+a += 4; //a=a+4
+console.log("a=",a); //9
+a -= 4; //a=a-4
+console.log("a=",a); //1
+a *= 4; //a=a*4
+console.log("a=",a); //20
+a /= 4; //a=a/4
+console.log("a=",a); //1.25
+a %= 4; //a=a%4
+console.log("a=",a); //1
+a **= 4; //a=a**4
+console.log("a=",a); //625
 
 
