@@ -8,3 +8,14 @@ const student = {
 student["name"]="Gurdit Dhiman";
 console.log(student["fullName"]);
 console.log(student.age);
+
+const profile = {
+    username: "@thecsestudent",
+    isFollow: false,
+    followers: 104,
+    following: 70,
+    posts: 16,
+};
+console.log (profile);
+console.log (typeof profile);
+console.log (typeof profile["username"]);
