@@ -109,6 +109,27 @@ let f=9;
 let g=11;
 console.log ("cond 1 || cond 2",!(f<g)); //true --false
 
+// Conditional Statements
+let age=27;
+if (age<18) {
+    console.log("You can not vote this time!")
+}
+if (age>18) {
+    console.log ("You can vote this time!")
+}
+
+// If else statement
+// odd or even
+let num=8;
+if (num%2 === 0) {
+console.log (num,"is even") 
+} else
+ {
+    console.log (num,"is odd");
+
+ }
+
+
 
 
 
