@@ -69,7 +69,7 @@ a **= 4; //a=a**4
 console.log("a=",a); //625 but 1
 */
 /*Comparison operators include equal to == ,not equal to != , equal to & type === ,
-not equal to & type !== */
+not equal to & type !== 
 let a=5;
 let b=2;
 console.log ("a==b",a==b);
@@ -84,7 +84,35 @@ let d=3;
 console.log ("a>d",a>d); //true
 console.log ("a<d",a<d); //false
 console.log ("a>=d",a>=d); //true
-console.log ("a<=d",a<=d); //false
+console.log ("a<=d",a<=d); //false*/
+
+// Logical Operators
+//Logical And (&&)
+let a=8;
+let b=12;
+let c=15;
+let cond1= a<b; true
+let cond2= a<=b; true
+let cond3= a>=c; false
+console.log ("cond1 && cond2",cond1 && cond2); //true
+/*console.log ("cond1 && cond2 && cond3",cond1 && cond2 || cond3); false
+console.log ("cond1 && cond2",cond1 && cond3); //false -# lines of code to 1 line code:*/
+console.log("cond1 && cond3",a<b && a>=c); // true false - false
+
+// Logical OR ||
+let d=6;
+let e=5;
+console.log ("cond1 || cond2",d>e || d<=e); //true false -- true
+// LOgical NOT !
+
+let f=9;
+let g=11;
+console.log ("cond 1 || cond 2",!(f<g)); //true --false
+
+
+
+
+
 
 
 
