@@ -16,7 +16,7 @@ else if (grade===9 || grade>=0) {
     console.log (grade, "Your grade is E");
 }  
 // Not the efficent way
-*/
+
 let score=prompt ("Enter your scores(0-100");
 let grades;
 if (score>=90 && score<=100) {
@@ -36,3 +36,11 @@ if (score>=0 && score<=49) {
 }
 
 console.log("according to your scores, your grades was : ", grades);
+
+for (let i=1; i<=100000;i++) {
+    console.log ("I'll soon complete my #100daysof code challenge surely!")
+} */
+for (let i = 1; i <= 100; i++) {
+    console.log("I'll soon complete my #100daysof code challenge surely!\n");
+}
+
