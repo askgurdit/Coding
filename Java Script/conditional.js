@@ -17,7 +17,7 @@ else if (grade===9 || grade>=0) {
 }  
 // Not the efficent way
 */
-let score=prompt ("Enter your scores");
+let score=prompt ("Enter your scores(0-100");
 let grades;
 if (score>=90 && score<=100) {
     grades = "A";
