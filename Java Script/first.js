@@ -128,6 +128,7 @@ console.log (num,"is even")
     console.log (num,"is odd");
 
  }
+ 
 
 
 
