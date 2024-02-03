@@ -6,7 +6,7 @@ int changevalue (int z) {
     return z;
 }
 int main() {
-    int a=5;
+    int a=55;
     a= changevalue(a);
     cout<<a;
     return 0;
