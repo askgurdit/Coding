@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/askdi/OneDrive/Desktop/Coding/C++ PROGAMMING/Practice/College",
-      "program": "c:/Users/askdi/OneDrive/Desktop/Coding/C++ PROGAMMING/Practice/College/build/Debug/outDebug",
+      "cwd": "c:/Users/askdi/OneDrive/Desktop/Coding/C++ PROGAMMING",
+      "program": "c:/Users/askdi/OneDrive/Desktop/Coding/C++ PROGAMMING/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
