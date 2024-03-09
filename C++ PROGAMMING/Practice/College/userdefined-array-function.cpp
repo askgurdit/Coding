@@ -20,7 +20,7 @@ int main() {
     array(a, size);
 
     // Display the elements of the array
-    cout << "Array elements: ";
+    cout << "Array elements: "; 
     for (int i = 0; i < size; i++) {
         cout << a[i] << "\t";
     }
