@@ -48,3 +48,12 @@ body{
      }
 
 }
+
+.foot p {
+    text-align: center;
+    color:black;
+    font-size: medium;
+    /*-webkit-text-stroke: black 0.1px;*/
+    margin-top: 10px;
+    font-weight: 800;
+}
