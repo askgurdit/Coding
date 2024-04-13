@@ -7,6 +7,6 @@ void changevalue(int &z) {
 int main() {
     int a=55;
     changevalue(a);
-    cout<<a;
+    cout<<a;  
     return 0;
 }
